@@ -136,7 +136,7 @@ struct scan_control {
 /*
  * From 0 .. 100.  Higher means more swappy.
  */
-int vm_swappiness = 90;
+int vm_swappiness = 100;
 unsigned long vm_total_pages;	/* The total number of pages which the VM controls */
 static LIST_HEAD(shrinker_list);
 static DECLARE_RWSEM(shrinker_rwsem);
